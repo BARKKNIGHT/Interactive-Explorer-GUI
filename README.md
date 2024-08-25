@@ -33,7 +33,7 @@ To build on Windows, follow the steps:
 * Install and set up git:  
 ```
 pacman -S git
-
+```
 * Install `gtk3` for the `MINGW64` environment:  
 ```
 pacman -S mingw-w64-x86_64-gtk3
@@ -45,7 +45,7 @@ pacman -S mingw-w64-x86_64-sdl2
 * Install `ffmpeg`
 ```
 pacman -S mingw-w64-x86_64-ffmpeg
-
+```
 * Compile b23ph1028_b23cs1048_b23ch1020_b23me1065_main.c
 ```
 
