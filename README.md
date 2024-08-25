@@ -50,7 +50,7 @@ pacman -S mingw-w64-x86_64-ffmpeg
 ```
 
 gcc b23ph1028_b23cs1048_b23ch1020_b23me1065_main.c -o app $(pkg-config --cflags --libs gtk+-3.0) $(pkg-config --cflags --libs SDL2_mixer) -Wl,--export-all-symbols -lavformat -lavcodec -lavutil -lswresample
-
+```
 * Run the compiled file:
 ```
 ./app.exe
